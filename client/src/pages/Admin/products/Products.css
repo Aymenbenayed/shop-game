@@ -1,0 +1,41 @@
+.dashbored-accueil{
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.left-dash{
+    border-color: black;
+}
+.right-dash{
+    margin-right: 100px;
+}
+.list{
+    margin-left: 2px!important;
+}
+.addproduct{
+    margin: 50px 500px;
+}
+.Btn-add{
+    margin-left: 150px!important;
+}
+.fa-edit{
+    color: green!important;
+}
+.fa-trash-alt{
+    color:red;
+}
+
+.controlproduct{
+    border-radius: 50px!important;
+    border-color: aqua;
+}
+
+.buttons{
+    display:flex;
+    text-align: center;
+}
+.Btn-addd{
+    margin-right: 80px!important;
+}

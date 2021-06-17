@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  /* left: 0;
+  right: 0;  */
+}

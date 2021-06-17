@@ -1,0 +1,31 @@
+/* .category-card{
+    display:flex;
+} */
+.category-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 140px;
+    flex-wrap:wrap; align-items:flex-end;
+}
+@media (max-width: 767px) {
+    .category-list{
+        margin: 0px;
+        justify-content: center!important;
+    }
+}
+/*
+.category-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #bcd0d1;
+    border: #bcd0d1;
+    border-radius: 20px;
+    padding: 20px;
+}*/
+
+.cards{
+margin-top: 80px!important;
+min-height: 200px!important;
+}

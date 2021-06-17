@@ -1,0 +1,65 @@
+/* .logo{
+    width: 3px;
+} */
+.isAuth{
+    display: flex;
+    margin-left: 5px!important;
+}
+.isAuth h1{
+    font-size: 15px;
+    color: azure;
+}
+
+.isAuth h1 span{
+    font-size: 15px;
+    color: aqua;
+}
+
+.isnotAuth{
+    margin-top: 5px;
+}
+
+.account{
+    width: 20%!important;
+}
+
+.navbar{
+    position:fixed !important;
+    top: 0px!important;
+    bottom:20;
+    width: 100%;
+    transition: all .7s ease-in;
+    
+}
+.scrolled{
+position:sticky;
+top: 20;
+left: 0;
+background-color: lightblue;
+}
+
+.cart__link{
+    color: rgb(228, 235, 236);
+}
+@media screen and (max-width: 767px) {
+    
+    /* .isAuth{
+        position:absolute;
+        display:block;
+        top: 90px;;
+        left:0;
+        background-color:black;
+
+    } */
+    /* .sideNav{
+        position:absolute;
+        display:block;
+        top: 50px;
+        left:0;
+        background-color:white;
+    } */
+  }
+  .sideNav{
+    display: none;
+    color: #fff;
+  }

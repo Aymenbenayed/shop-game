@@ -1,0 +1,65 @@
+
+.dashbored-accueilc{
+    display: flex;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.left-dashc{
+    border-color: black;
+}
+
+.right-dashc{
+    margin-left: 100px;
+}
+
+.tabcategory{
+    size: 250px;
+}
+
+.listc{
+    margin-left: 2px!important;
+}
+
+.addcategory{
+    margin: 50px 450px;
+}
+
+.Btn-add{
+    margin-left: 150px!important;
+}
+
+.fa-edit{
+    color: green!important;
+}
+
+.fa-trash-alt{
+    color:red
+}
+
+
+.my-form{
+    margin: 5% 30%;
+    background-color: #acd9f3;
+    padding: 4%;
+    border-radius: 15px;
+
+}
+
+
+h1{
+color:blue;
+text-align: center;}
+
+
+.edit-btn{
+    margin-top: 5%;
+    padding:5px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.controlcategory{
+    border-radius: 50px!important;
+    border-color: aqua;
+}

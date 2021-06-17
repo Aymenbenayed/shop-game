@@ -1,0 +1,11 @@
+.list{
+    margin-left: 2px!important;
+}
+
+.buttons{
+    display:flex;
+    margin-right: 80px;
+}
+.Btn-addd{
+    margin-right: 80px;
+}

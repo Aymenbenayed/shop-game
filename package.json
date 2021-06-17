@@ -1,0 +1,41 @@
+{
+  "name": "projetfinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "back": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run client\" \"npm run back\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.5.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.0",
+    "shortid": "^2.2.16",
+    "slugify": "^1.5.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}

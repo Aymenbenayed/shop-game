@@ -1,0 +1,55 @@
+.recipt-headerr {
+  display: flex !important;
+  justify-content: space-around;
+  margin: 50px 150px 150px 150px;
+}
+.logo{
+    width: 180px;
+    height: 180px;
+}
+.buyer {
+  margin-left: 320px;
+  margin-bottom: 30px;
+}
+.tablee {
+  margin: 0 320px;
+}
+.recipt-subtotal {
+  display: flex !important;
+  margin-left: 1020px;
+}
+.success {
+  display: flex;
+  justify-content: center;
+}
+.finish-btn {
+  margin: 10px 400px !important;
+}
+
+@media screen and (max-width: 991px) {
+  .buyer {
+    margin: 10px;
+  }
+
+  .tablee {
+    margin: 10px;
+  }
+  .recipt-subtotal {
+    margin: 10px;
+    
+  }
+
+  .finish-btn {
+    margin: 10px;
+  }
+  .btn-receipt {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  .logo{
+    width: 200px;
+    height: 200px;
+    padding-right: 15px;
+}
+}

@@ -1,0 +1,42 @@
+.LandPage {
+  margin-top: 200px;
+  text-align: center;
+}
+.grandsmarque {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.marque {
+  width: 15%;
+  margin: 30px;
+  transition: all 2s;
+}
+
+.title--line:after,
+.title--line:before {
+  content: "";
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0;
+  height: 10px;
+  display: block;
+  background: #004d9f;
+  margin-bottom: 8px;
+}
+.LandPage h2 {
+  color: blue;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.marque:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.marque {
+  transition: 0.5s ease;
+  cursor: pointer;
+}

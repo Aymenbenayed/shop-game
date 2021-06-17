@@ -1,0 +1,22 @@
+.list{
+    margin-left: 2px!important;
+}
+.left-dash{
+    border-color: black;
+}
+.right-dash{
+    margin-left: 0px;
+} 
+.content~h1{
+    color:blue;
+    font-size: 40px;
+    padding-left: 70px;
+}
+
+.dash{
+    display: flex;
+}
+
+.img-admin{
+    padding-left: 70px;
+}
